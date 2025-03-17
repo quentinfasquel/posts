@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>swift with quentin</title>
+    <link>https://blog.quentinfasquel.com/</link>
+    <description>Recent content on swift with quentin</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 10 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://blog.quentinfasquel.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Swift – From SPI to Package Traits</title>
+      <link>https://blog.quentinfasquel.com/posts/from-spi-to-package-traits/</link>
+      <pubDate>Mon, 10 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://blog.quentinfasquel.com/posts/from-spi-to-package-traits/</guid>
+      <description>&lt;h1 id=&#34;swift--from-spi-to-package-traits&#34;&gt;&#xA;  Swift – From SPI to Package Traits&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#swift--from-spi-to-package-traits&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;h2 id=&#34;1-specialized-programing-interface-&#34;&gt;&#xA;  1. Specialized Programing Interface 🥷&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#1-specialized-programing-interface-&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Specialized Programming Interface (&lt;code&gt;@_spi&lt;/code&gt;) is a feature introduced in &lt;strong&gt;Swift 5.3&lt;/strong&gt; that allows you to restrict access to certain parts of your API. Unlike traditional access levels such as &lt;code&gt;public&lt;/code&gt; or &lt;code&gt;internal&lt;/code&gt;, &lt;strong&gt;&lt;code&gt;@_spi&lt;/code&gt;&lt;/strong&gt; enables you to make parts of your API accessible only to a specific group of users, such as specific internal modules or packages, by specifying the SPI name.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

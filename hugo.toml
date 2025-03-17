@@ -1,9 +1,10 @@
-baseURL = "http://blog.quentinfasquel.com"
+baseURL = "https://blog.quentinfasquel.com"
 title = "swift with quentin"
 theme = "hugo-coder"
 languageCode = "en"
 defaultContentLanguage = "en"
 enableEmoji = true
+publishDir = "docs"
 
 [pagination]
 pagerSize = 6
