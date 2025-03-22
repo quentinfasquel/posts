@@ -5,13 +5,16 @@
     <loc>https://blog.quentinfasquel.com/authors/</loc>
     <lastmod>2025-03-10T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://blog.quentinfasquel.com/posts/2025-03-from-spi-to-package-traits/</loc>
+    <lastmod>2025-03-10T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://blog.quentinfasquel.com/posts/</loc>
     <lastmod>2025-03-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.quentinfasquel.com/authors/quentin-fasquel/</loc>
     <lastmod>2025-03-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.quentinfasquel.com/posts/from-spi-to-package-traits/</loc>
+    <loc>https://blog.quentinfasquel.com/tags/swift/</loc>
     <lastmod>2025-03-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.quentinfasquel.com/tags/swift-evolution/</loc>
@@ -22,6 +25,144 @@
   </url><url>
     <loc>https://blog.quentinfasquel.com/tags/</loc>
     <lastmod>2025-03-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.quentinfasquel.com/tags/app-intents/</loc>
+    <lastmod>2025-01-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.quentinfasquel.com/tags/realitykit/</loc>
+    <lastmod>2025-01-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.quentinfasquel.com/posts/2025-01-recap-of-apple-s-in-person-sessions-2025/</loc>
+    <lastmod>2025-01-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.quentinfasquel.com/tags/ios/</loc>
+    <lastmod>2025-01-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.quentinfasquel.com/tags/notifications/</loc>
+    <lastmod>2025-01-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.quentinfasquel.com/posts/2025-01-observing-notifications/</loc>
+    <lastmod>2025-01-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.quentinfasquel.com/posts/2024-09-custom-fullscreencover-transitions-in-swiftui/</loc>
+    <lastmod>2024-09-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.quentinfasquel.com/tags/swiftui/</loc>
+    <lastmod>2024-09-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.quentinfasquel.com/posts/2024-04-interactive-transitions-in-swiftui-part1/</loc>
+    <lastmod>2024-04-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.quentinfasquel.com/posts/2024-04-interactive-transitions-in-swiftui-part2/</loc>
+    <lastmod>2024-04-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.quentinfasquel.com/posts/2024-03-swiftui-dismiss-in-cascade/</loc>
+    <lastmod>2024-03-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.quentinfasquel.com/tags/modal/</loc>
+    <lastmod>2024-03-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.quentinfasquel.com/tags/regex/</loc>
+    <lastmod>2024-03-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.quentinfasquel.com/posts/2024-03-regular-expressions-in-swift-packages/</loc>
+    <lastmod>2024-03-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.quentinfasquel.com/tags/swift-package-manager/</loc>
+    <lastmod>2024-03-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.quentinfasquel.com/tags/xcode/</loc>
+    <lastmod>2024-03-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.quentinfasquel.com/tags/avfoundation/</loc>
+    <lastmod>2024-01-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.quentinfasquel.com/tags/camera/</loc>
+    <lastmod>2024-01-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.quentinfasquel.com/posts/2024-01-using-the-camera-with-swiftui/</loc>
+    <lastmod>2024-01-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.quentinfasquel.com/tags/bindings/</loc>
+    <lastmod>2023-05-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.quentinfasquel.com/posts/2023-05-passing-a-binding/</loc>
+    <lastmod>2023-05-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.quentinfasquel.com/tags/live-activites/</loc>
+    <lastmod>2022-10-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.quentinfasquel.com/posts/2022-10-live-activities-are-about-to-be-live/</loc>
+    <lastmod>2022-10-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.quentinfasquel.com/tags/apple-silicon/</loc>
+    <lastmod>2020-09-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.quentinfasquel.com/tags/carthage/</loc>
+    <lastmod>2020-09-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.quentinfasquel.com/posts/2020-09-carthage-issues-xcode12-xcframeworks-apple-silicon/</loc>
+    <lastmod>2020-09-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.quentinfasquel.com/tags/troubleshooting/</loc>
+    <lastmod>2020-09-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.quentinfasquel.com/tags/xcframework/</loc>
+    <lastmod>2020-09-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.quentinfasquel.com/tags/xcode-12/</loc>
+    <lastmod>2020-09-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.quentinfasquel.com/tags/compatibility/</loc>
+    <lastmod>2020-09-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.quentinfasquel.com/posts/2020-09-eco-friendly-programming/</loc>
+    <lastmod>2020-09-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.quentinfasquel.com/tags/coreimage/</loc>
+    <lastmod>2020-03-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.quentinfasquel.com/posts/2020-03-transparent-video-with-swiftui/</loc>
+    <lastmod>2020-03-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.quentinfasquel.com/tags/video-processing/</loc>
+    <lastmod>2020-03-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.quentinfasquel.com/tags/cikernel/</loc>
+    <lastmod>2020-03-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.quentinfasquel.com/posts/2020-03-transparent-video-with-coreimage-part2/</loc>
+    <lastmod>2020-03-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.quentinfasquel.com/posts/2019-03-leaks-nsexception-swift/</loc>
+    <lastmod>2019-03-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.quentinfasquel.com/tags/objective-c/</loc>
+    <lastmod>2019-03-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.quentinfasquel.com/tags/scenekit/</loc>
+    <lastmod>2018-05-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.quentinfasquel.com/tags/spritekit/</loc>
+    <lastmod>2018-05-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.quentinfasquel.com/posts/2018-05-transparent-video-with-spritekit-scenekit/</loc>
+    <lastmod>2018-05-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.quentinfasquel.com/posts/2018-01-debugging-your-ios-layout/</loc>
+    <lastmod>2018-01-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.quentinfasquel.com/tags/uikit/</loc>
+    <lastmod>2018-01-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.quentinfasquel.com/posts/2017-10-transparent-video-with-coreimage/</loc>
+    <lastmod>2017-10-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.quentinfasquel.com/tags/ar/</loc>
+    <lastmod>2017-09-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.quentinfasquel.com/posts/2017-09-image-tracking-with-artoolkit-scenekit/</loc>
+    <lastmod>2017-09-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.quentinfasquel.com/categories/</loc>
   </url><url>

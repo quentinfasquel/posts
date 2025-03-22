@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Swift Package Manager on swift with quentin</title>
+    <link>https://blog.quentinfasquel.com/tags/swift-package-manager/</link>
+    <description>Recent content in Swift Package Manager on swift with quentin</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 02 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://blog.quentinfasquel.com/tags/swift-package-manager/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Regular expressions in Swift Packages</title>
+      <link>https://blog.quentinfasquel.com/posts/2024-03-regular-expressions-in-swift-packages/</link>
+      <pubDate>Sat, 02 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.quentinfasquel.com/posts/2024-03-regular-expressions-in-swift-packages/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://medium.com/@quentinfasquel/regular-expressions-in-swift-packages-3a3baa5aef51&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Written on Medium&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

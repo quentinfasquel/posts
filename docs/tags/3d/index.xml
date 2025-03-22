@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>3D on swift with quentin</title>
+    <link>http://localhost:1313/tags/3d/</link>
+    <description>Recent content in 3D on swift with quentin</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 16 May 2018 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/3d/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>iOS — Transparent Video in SpriteKit, then SceneKit</title>
+      <link>http://localhost:1313/posts/2018-05-ios-transparent-video-with-spritekit-scenekit/</link>
+      <pubDate>Wed, 16 May 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2018-05-ios-transparent-video-with-spritekit-scenekit/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://medium.com/@quentinfasquel/debugging-your-ios-layout-on-the-fly-associated-objects-swizzling-d3a672facc33&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Written on Medium&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

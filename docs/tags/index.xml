@@ -9,10 +9,206 @@
     <lastBuildDate>Mon, 10 Mar 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://blog.quentinfasquel.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Swift</title>
+      <link>https://blog.quentinfasquel.com/tags/swift/</link>
+      <pubDate>Mon, 10 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://blog.quentinfasquel.com/tags/swift/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Swift Evolution</title>
       <link>https://blog.quentinfasquel.com/tags/swift-evolution/</link>
       <pubDate>Mon, 10 Mar 2025 00:00:00 +0000</pubDate>
       <guid>https://blog.quentinfasquel.com/tags/swift-evolution/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>App Intents</title>
+      <link>https://blog.quentinfasquel.com/tags/app-intents/</link>
+      <pubDate>Fri, 17 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://blog.quentinfasquel.com/tags/app-intents/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>RealityKit</title>
+      <link>https://blog.quentinfasquel.com/tags/realitykit/</link>
+      <pubDate>Fri, 17 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://blog.quentinfasquel.com/tags/realitykit/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>IOS</title>
+      <link>https://blog.quentinfasquel.com/tags/ios/</link>
+      <pubDate>Tue, 07 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://blog.quentinfasquel.com/tags/ios/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Notifications</title>
+      <link>https://blog.quentinfasquel.com/tags/notifications/</link>
+      <pubDate>Tue, 07 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://blog.quentinfasquel.com/tags/notifications/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SwiftUI</title>
+      <link>https://blog.quentinfasquel.com/tags/swiftui/</link>
+      <pubDate>Fri, 06 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.quentinfasquel.com/tags/swiftui/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Modal</title>
+      <link>https://blog.quentinfasquel.com/tags/modal/</link>
+      <pubDate>Sun, 31 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.quentinfasquel.com/tags/modal/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Regex</title>
+      <link>https://blog.quentinfasquel.com/tags/regex/</link>
+      <pubDate>Sat, 02 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.quentinfasquel.com/tags/regex/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Swift Package Manager</title>
+      <link>https://blog.quentinfasquel.com/tags/swift-package-manager/</link>
+      <pubDate>Sat, 02 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.quentinfasquel.com/tags/swift-package-manager/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Xcode</title>
+      <link>https://blog.quentinfasquel.com/tags/xcode/</link>
+      <pubDate>Sat, 02 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.quentinfasquel.com/tags/xcode/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>AVFoundation</title>
+      <link>https://blog.quentinfasquel.com/tags/avfoundation/</link>
+      <pubDate>Tue, 02 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.quentinfasquel.com/tags/avfoundation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Camera</title>
+      <link>https://blog.quentinfasquel.com/tags/camera/</link>
+      <pubDate>Tue, 02 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.quentinfasquel.com/tags/camera/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Bindings</title>
+      <link>https://blog.quentinfasquel.com/tags/bindings/</link>
+      <pubDate>Sat, 27 May 2023 00:00:00 +0000</pubDate>
+      <guid>https://blog.quentinfasquel.com/tags/bindings/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Live Activites</title>
+      <link>https://blog.quentinfasquel.com/tags/live-activites/</link>
+      <pubDate>Wed, 19 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>https://blog.quentinfasquel.com/tags/live-activites/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Apple Silicon</title>
+      <link>https://blog.quentinfasquel.com/tags/apple-silicon/</link>
+      <pubDate>Fri, 25 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>https://blog.quentinfasquel.com/tags/apple-silicon/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Carthage</title>
+      <link>https://blog.quentinfasquel.com/tags/carthage/</link>
+      <pubDate>Fri, 25 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>https://blog.quentinfasquel.com/tags/carthage/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Troubleshooting</title>
+      <link>https://blog.quentinfasquel.com/tags/troubleshooting/</link>
+      <pubDate>Fri, 25 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>https://blog.quentinfasquel.com/tags/troubleshooting/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Xcframework</title>
+      <link>https://blog.quentinfasquel.com/tags/xcframework/</link>
+      <pubDate>Fri, 25 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>https://blog.quentinfasquel.com/tags/xcframework/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Xcode 12</title>
+      <link>https://blog.quentinfasquel.com/tags/xcode-12/</link>
+      <pubDate>Fri, 25 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>https://blog.quentinfasquel.com/tags/xcode-12/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Compatibility</title>
+      <link>https://blog.quentinfasquel.com/tags/compatibility/</link>
+      <pubDate>Wed, 16 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>https://blog.quentinfasquel.com/tags/compatibility/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>CoreImage</title>
+      <link>https://blog.quentinfasquel.com/tags/coreimage/</link>
+      <pubDate>Sun, 29 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>https://blog.quentinfasquel.com/tags/coreimage/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Video Processing</title>
+      <link>https://blog.quentinfasquel.com/tags/video-processing/</link>
+      <pubDate>Sun, 29 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>https://blog.quentinfasquel.com/tags/video-processing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>CIKernel</title>
+      <link>https://blog.quentinfasquel.com/tags/cikernel/</link>
+      <pubDate>Sat, 28 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>https://blog.quentinfasquel.com/tags/cikernel/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Objective-C</title>
+      <link>https://blog.quentinfasquel.com/tags/objective-c/</link>
+      <pubDate>Sun, 17 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>https://blog.quentinfasquel.com/tags/objective-c/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SceneKit</title>
+      <link>https://blog.quentinfasquel.com/tags/scenekit/</link>
+      <pubDate>Wed, 16 May 2018 00:00:00 +0000</pubDate>
+      <guid>https://blog.quentinfasquel.com/tags/scenekit/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SpriteKit</title>
+      <link>https://blog.quentinfasquel.com/tags/spritekit/</link>
+      <pubDate>Wed, 16 May 2018 00:00:00 +0000</pubDate>
+      <guid>https://blog.quentinfasquel.com/tags/spritekit/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>UIKit</title>
+      <link>https://blog.quentinfasquel.com/tags/uikit/</link>
+      <pubDate>Wed, 31 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://blog.quentinfasquel.com/tags/uikit/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>AR</title>
+      <link>https://blog.quentinfasquel.com/tags/ar/</link>
+      <pubDate>Fri, 29 Sep 2017 00:00:00 +0000</pubDate>
+      <guid>https://blog.quentinfasquel.com/tags/ar/</guid>
       <description></description>
     </item>
   </channel>

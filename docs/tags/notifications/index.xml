@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Notifications on swift with quentin</title>
+    <link>https://blog.quentinfasquel.com/tags/notifications/</link>
+    <description>Recent content in Notifications on swift with quentin</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 07 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://blog.quentinfasquel.com/tags/notifications/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Observing Notifications</title>
+      <link>https://blog.quentinfasquel.com/posts/2025-01-observing-notifications/</link>
+      <pubDate>Tue, 07 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://blog.quentinfasquel.com/posts/2025-01-observing-notifications/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://medium.com/@quentinfasquel/ios-observing-notifications-1e89cadbc05f&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Written on Medium&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

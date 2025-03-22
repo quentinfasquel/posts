@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SwiftUI on swift with quentin</title>
+    <link>https://blog.quentinfasquel.com/tags/swiftui/</link>
+    <description>Recent content in SwiftUI on swift with quentin</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 06 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://blog.quentinfasquel.com/tags/swiftui/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Custom FullScreenCover Transitions in SwiftUI</title>
+      <link>https://blog.quentinfasquel.com/posts/2024-09-custom-fullscreencover-transitions-in-swiftui/</link>
+      <pubDate>Fri, 06 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.quentinfasquel.com/posts/2024-09-custom-fullscreencover-transitions-in-swiftui/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://medium.com/@quentinfasquel/swiftui-custom-fullscreencover-transitions-a44beed4c163&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Written on Medium&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Interactive Transitions in SwiftUI (Part 1)</title>
+      <link>https://blog.quentinfasquel.com/posts/2024-04-interactive-transitions-in-swiftui-part1/</link>
+      <pubDate>Sat, 27 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.quentinfasquel.com/posts/2024-04-interactive-transitions-in-swiftui-part1/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://medium.com/@quentinfasquel/swiftui-interactive-transitions-part-1-f8ea10477802&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Written on Medium&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Interactive Transitions in SwiftUI (Part 2)</title>
+      <link>https://blog.quentinfasquel.com/posts/2024-04-interactive-transitions-in-swiftui-part2/</link>
+      <pubDate>Sat, 27 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.quentinfasquel.com/posts/2024-04-interactive-transitions-in-swiftui-part2/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://medium.com/@quentinfasquel/swiftui-interactive-transitions-part-2-57b74e0069ea&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Written on Medium&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Dismiss in cascade, multiple sheets/fullScreenCover in SwiftUI</title>
+      <link>https://blog.quentinfasquel.com/posts/2024-03-swiftui-dismiss-in-cascade/</link>
+      <pubDate>Sun, 31 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.quentinfasquel.com/posts/2024-03-swiftui-dismiss-in-cascade/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://medium.com/@quentinfasquel/swiftui-dismiss-in-cascade-working-with-multiple-sheet-fullscreencover-970cf6a67912&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Written on Medium&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Using the camera with SwiftUI</title>
+      <link>https://blog.quentinfasquel.com/posts/2024-01-using-the-camera-with-swiftui/</link>
+      <pubDate>Tue, 02 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.quentinfasquel.com/posts/2024-01-using-the-camera-with-swiftui/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://medium.com/@quentinfasquel/ios-using-the-camera-with-swiftui-004731ce78f0&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Written on Medium&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Passing a Binding from a UIHostingController to another</title>
+      <link>https://blog.quentinfasquel.com/posts/2023-05-passing-a-binding/</link>
+      <pubDate>Sat, 27 May 2023 00:00:00 +0000</pubDate>
+      <guid>https://blog.quentinfasquel.com/posts/2023-05-passing-a-binding/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://medium.com/@quentinfasquel/swiftui-passing-a-binding-from-a-uihostingcontroller-to-another-59a70664179f&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Written on Medium&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Transparent Video in SwiftUI</title>
+      <link>https://blog.quentinfasquel.com/posts/2020-03-transparent-video-with-swiftui/</link>
+      <pubDate>Sun, 29 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>https://blog.quentinfasquel.com/posts/2020-03-transparent-video-with-swiftui/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://medium.com/@quentinfasquel/ios-transparent-video-in-swiftui-92a9a1cce94e&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Written on Medium&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

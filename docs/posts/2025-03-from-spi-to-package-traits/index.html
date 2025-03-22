@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>
+  From SPI to Package Traits · swift with quentin
+</title>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light dark">
+
+
+
+
+<meta name="author" content="Quentin Fasquel">
+<meta name="description" content="
+  Swift – From SPI to Package Traits
+  
+    
+    Link to heading
+  
+
+
+  1. Specialized Programing Interface 🥷
+  
+    
+    Link to heading
+  
+
+Specialized Programming Interface (@_spi) is a feature introduced in Swift 5.3 that allows you to restrict access to certain parts of your API. Unlike traditional access levels such as public or internal, @_spi enables you to make parts of your API accessible only to a specific group of users, such as specific internal modules or packages, by specifying the SPI name.">
+<meta name="keywords" content="blog,developer,personal">
+
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="From SPI to Package Traits">
+  <meta name="twitter:description" content="Swift – From SPI to Package Traits Link to heading 1. Specialized Programing Interface 🥷 Link to heading Specialized Programming Interface (@_spi) is a feature introduced in Swift 5.3 that allows you to restrict access to certain parts of your API. Unlike traditional access levels such as public or internal, @_spi enables you to make parts of your API accessible only to a specific group of users, such as specific internal modules or packages, by specifying the SPI name.">
+
+<meta property="og:url" content="https://blog.quentinfasquel.com/posts/2025-03-from-spi-to-package-traits/">
+  <meta property="og:site_name" content="swift with quentin">
+  <meta property="og:title" content="From SPI to Package Traits">
+  <meta property="og:description" content="Swift – From SPI to Package Traits Link to heading 1. Specialized Programing Interface 🥷 Link to heading Specialized Programming Interface (@_spi) is a feature introduced in Swift 5.3 that allows you to restrict access to certain parts of your API. Unlike traditional access levels such as public or internal, @_spi enables you to make parts of your API accessible only to a specific group of users, such as specific internal modules or packages, by specifying the SPI name.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-03-10T00:00:00+00:00">
+    <meta property="article:modified_time" content="2025-03-10T00:00:00+00:00">
+    <meta property="article:tag" content="Swift">
+    <meta property="article:tag" content="Swift Evolution">
+
+
+
+
+<link rel="canonical" href="https://blog.quentinfasquel.com/posts/2025-03-from-spi-to-package-traits/">
+
+
+<link rel="preload" href="/fonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-regular-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
+
+
+  
+  
+  <link rel="stylesheet" href="/css/coder.min.7763f8bc6341ecf82378e867c285e1549abb063a899be313ccd25dbfcd24fa7d.css" integrity="sha256-d2P4vGNB7PgjeOhnwoXhVJq7BjqJm&#43;MTzNJdv80k&#43;n0=" crossorigin="anonymous" media="screen" />
+
+
+
+
+
+
+  
+    
+    
+    <link rel="stylesheet" href="/css/coder-dark.min.a00e6364bacbc8266ad1cc81230774a1397198f8cfb7bcba29b7d6fcb54ce57f.css" integrity="sha256-oA5jZLrLyCZq0cyBIwd0oTlxmPjPt7y6KbfW/LVM5X8=" crossorigin="anonymous" media="screen" />
+  
+
+
+
+ 
+
+
+
+
+<link rel="icon" type="image/svg+xml" href="/images/favicon.svg" sizes="any">
+<link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
+
+<link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+
+
+
+
+
+</head>
+
+
+
+
+
+
+<body class="preload-transitions colorscheme-auto">
+  
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+  <main class="wrapper">
+    <nav class="navigation">
+  <section class="container">
+    
+    <a class="navigation-title" href="https://blog.quentinfasquel.com/">
+      swift with quentin
+    </a>
+    
+    
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa-solid fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/posts/">Posts</a>
+            </li>
+          
+        
+        
+      </ul>
+    
+  </section>
+</nav>
+
+
+    <div class="content">
+      
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">
+            <a class="title-link" href="https://blog.quentinfasquel.com/posts/2025-03-from-spi-to-package-traits/">
+              From SPI to Package Traits
+            </a>
+          </h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fa-solid fa-calendar" aria-hidden="true"></i>
+              <time datetime="2025-03-10T00:00:00Z">
+                March 10, 2025
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fa-solid fa-clock" aria-hidden="true"></i>
+              6-minute read
+            </span>
+          </div>
+          <div class="authors">
+  <i class="fa-solid fa-user" aria-hidden="true"></i>
+    <a href="/authors/quentin-fasquel/">Quentin Fasquel</a></div>
+
+          
+          <div class="tags">
+  <i class="fa-solid fa-tag" aria-hidden="true"></i>
+    <span class="tag">
+      <a href="/tags/swift/">Swift</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/swift-evolution/">Swift Evolution</a>
+    </span></div>
+
+        </div>
+      </header>
+
+      <div class="post-content">
+        
+        <h1 id="swift--from-spi-to-package-traits">
+  Swift – From SPI to Package Traits
+  <a class="heading-link" href="#swift--from-spi-to-package-traits">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h1>
+<h2 id="1-specialized-programing-interface-">
+  1. Specialized Programing Interface 🥷
+  <a class="heading-link" href="#1-specialized-programing-interface-">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>Specialized Programming Interface (<code>@_spi</code>) is a feature introduced in <strong>Swift 5.3</strong> that allows you to restrict access to certain parts of your API. Unlike traditional access levels such as <code>public</code> or <code>internal</code>, <strong><code>@_spi</code></strong> enables you to make parts of your API accessible only to a specific group of users, such as specific internal modules or packages, by specifying the SPI name.</p>
+<h4 id="_spicaptureui-import-capture">
+  <strong><code>@_spi(CaptureUI) import Capture</code></strong>
+  <a class="heading-link" href="#_spicaptureui-import-capture">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h4>
+<p>Let see an example with package <code>CaptureSDK</code>, check the following files:</p>
+<details>
+  <summary>`Package.swift`</summary>
+<pre tabindex="0"><code>// swift-tools-version: 5.9
+import PackageDescription
+
+let package = Package(
+    name: &#34;CaptureSDK&#34;,
+    products: [
+        .library(name: &#34;Capture&#34;, targets: [&#34;Capture&#34;]),
+        .library(name: &#34;CaptureUI&#34;, targets: [&#34;CaptureUI&#34;]),
+    ],
+    targets: [
+        .target(name: &#34;Capture&#34;),
+        .target(name: &#34;CaptureUI&#34;, dependencies: [&#34;Capture&#34;]),
+    ]
+)
+</code></pre></details>
+<details>
+  <summary>`Sources/Capture/Capture.swift`</summary>
+<pre tabindex="0"><code>//
+//  Capture.swift
+//  CaptureSDK/Capture
+//
+
+public import AVFoundation
+
+@_spi(CaptureUI)
+public class CameraService {
+    public init(session: AVCaptureSession) {
+
+    }
+}
+</code></pre></details>
+<details>
+  <summary>`Sources/CaptureUI/CaptureUI.swift`</summary>
+<pre tabindex="0"><code>//
+//  CaptureUI.swift
+//  CaptureSDK/CaptureUI
+//
+
+@_spi(CaptureUI) import Capture
+
+// Can now use CameraService() ...
+</code></pre></details>
+<p>In this example, the <code>CaptureUI</code> library imports an SPI called <strong><code>CaptureUI</code></strong> from the <code>Capture</code> library. By marking <code>CameraService</code> with <strong><code>@_spi(CaptureUI)</code></strong>, we indicate that this class is only intended for use by the CaptureUI library (or whoever else knows about the SPI name). This ensures that the internals of the Capture library aren&rsquo;t exposed to the outside world, maintaining a level of secrecy and control over experimental or incomplete features until they are ready for broader use.</p>
+<p>And that&rsquo;s essentially what <code>SPI</code> is. Apple likely uses this feature within their own projects. You and your team can leverage it in similar ways: for example, when you introduce a new capability in your library that isn&rsquo;t yet ready for public release. Wrapping that feature in an SPI allows only those on your team — those who know the SPI name — to access it. This ensures the feature remains private until it&rsquo;s fully polished and ready for a broader release.</p>
+<h4 id="working-with-xcframework-binaries">
+  Working with xcframework (binaries)
+  <a class="heading-link" href="#working-with-xcframework-binaries">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h4>
+<p>When working with closed-source libraries or distributing Swift packages as binaries (such as <code>xcframework</code>), SPI can be particularly useful. During the build process, the SPI module interface is properly exported in the binary, ensuring that only those who know the SPI can access these internal features, even when the code isn&rsquo;t publicly available.</p>
+<h2 id="2-access-level-package-">
+  2. Access-Level Package 📦
+  <a class="heading-link" href="#2-access-level-package-">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>An access-level keyword defines the visibility of your types and members (such as structs, classes, enums, properties, and functions). Prior to Swift 6.0, the most common access levels were <code>public</code>, <code>internal</code>, <code>fileprivate</code> and <code>private</code>, ordered from most to least visible.</p>
+<blockquote>
+<p>Let&rsquo;s keep the <code>open</code> keyword off topic. It is similar to <code>public</code> in visibility, but it has one key difference: it&rsquo;s reserved for classes and allows them to be subclassed or extended outside the module.</p></blockquote>
+<p><strong>Swift 6.0</strong> introduced a <strong>new access-level <code>package</code></strong> that provides a more granular approach to controlling visibility within a package. The access-level <code>package</code> works between <code>public</code> and <code>internal</code> access, making it ideal for cases where you want to expose some functionality within the same package but restrict it from external users.</p>
+<h4 id="access-level-on-imports-package">
+  Access-level on imports, <code>package</code>
+  <a class="heading-link" href="#access-level-on-imports-package">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h4>
+<p>Swift 6.0 also introduced <strong>access-level on imports</strong>. But there&rsquo;s  a notable distinction: the default access-level for imports is <code>public</code>, which is different from the usual default of internal for other members. This change was made to maintain compatibility with previous Swift versions, where the imports behavior was public by default.</p>
+<blockquote>
+<p>This behavior may change in the future, and it can already be adjusted if needed through the compiler directive <code>-enable-upcoming-feature</code> <code>InternalImportsByDefault</code> or in Xcode: <code>SWIFT_UPCOMING_FEATURE_INTERNAL_IMPORTS_BY_DEFAULTS=YES</code></p></blockquote>
+<p>With this change, when applying the new access-level <code>package</code> on imports, you can avoid the need for SPIs in certain cases. In the previous example, since the <code>CaptureUI</code> and <code>Capture</code> libraries belong to the same Swift package, they can take advantage of the <code>package</code> access-level and share functionality without needing SPI to control visibility.</p>
+<h4 id="-working-with-xcframework">
+  ⚠️ Working with xcframework
+  <a class="heading-link" href="#-working-with-xcframework">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h4>
+<p>Since building an <code>xcframework</code> for Apple platforms requires the use of <strong>Xcode</strong> with a library or framework target, you may wonder how the <code>package</code> access-level knows which package to refer to when building a binary. This is made possible through the <code>SWIFT_PACKAGE_NAME</code> build setting in Xcode. This build setting ensures that symbols with the <code>package</code> access-level are correctly visible across different libraries or frameworks that belong to the same package, as specified by the <code>SWIFT_PACKAGE_NAME</code> value.</p>
+<p>&ndash;</p>
+<h1 id="3-package-traits-">
+  3. Package Traits 🧪
+  <a class="heading-link" href="#3-package-traits-">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h1>
+<p><strong>Swift 6.1</strong> introduced a new feature to SPM (<em>Swift Package Manager</em>) called <strong>Package Traits</strong>. I initially thought it would be a stable replacement for <code>@_spi</code> (which, as an underscore feature, is considered &ldquo;non-stable&rdquo;)&hellip; it&rsquo; not.</p>
+<p>While you could use <em>traits</em> to divide your package features and specify which subset of your team or collaborators can access them, they are not intended for controlling visibility. Instead, <strong>Package Traits</strong> enable conditional compilation, allowing specific code paths to be included or excluded based on the traits specified in the consuming package.</p>
+<blockquote>
+<p>Swift 6.1 is available with Xcode 16.3, but as of the first beta, there is currently no way to add a package product dependency with specific traits.</p></blockquote>
+<p>Let see an example of how it works, and how to describe <strong>Package Traits</strong>  in a <code>Package.swift</code>, check the following files:</p>
+<details>
+  <summary>`CaptureSDK/Package.swift`</summary>
+<pre tabindex="0"><code>// swift-tools-version: 6.1
+import PackageDescription
+
+let package = Package(
+    name: &#34;CaptureSDK&#34;,
+    products: [
+        .library(name: &#34;Capture&#34;, targets: [&#34;Capture&#34;]),
+        .library(name: &#34;CaptureUI&#34;, targets: [&#34;CaptureUI&#34;]),
+    ],
+    traits: [
+        .trait(name: &#34;experimental&#34;)
+    ],
+    targets: [
+        .target(name: &#34;Capture&#34;),
+        .target(name: &#34;CaptureUI&#34;, dependencies: [&#34;Capture&#34;]),
+    ]
+)
+</code></pre></details>
+<details>
+  <summary>`CaptureSDK/Sources/Capture/Capture.swift`</summary>
+<pre tabindex="0"><code>//
+//  Capture.swift
+//  CaptureSDK/Capture
+//
+
+public import AVFoundation
+
+public class CameraService {
+    public init(session: AVCaptureSession) {
+
+    }
+
+#if experimental
+    public func someExperimentalFeature() {
+        //
+    }
+#endif
+}
+</code></pre></details>
+<details>
+  <summary>`ConsumerPackage/Package.swift`</summary>
+<pre tabindex="0"><code>// swift-tools-version: 6.1
+import PackageDescription
+
+let package = Package(
+    name: &#34;ConsumerPackage&#34;,
+    products: [
+        .library(name: &#34;ConsumerLibrary&#34;, targets: [&#34;ConsumerLibrary&#34;]),
+    ],
+    dependencies: [
+        .package(
+            url: &#34;http://github.com/quentinfasquel/Capture&#34;,
+            from: &#34;0.1&#34;,
+            traits: [&#34;experimental&#34;]
+        ),
+    ],
+    targets: [
+        .target(
+            name: &#34;ConsumerLibrary&#34;,
+            dependencies: [
+                .product(name: &#34;Capture&#34;, package: &#34;CaptureSDK&#34;)
+            ]
+        ),
+    ]
+)
+</code></pre></details>
+<p>As you can see, they offer a flexible mechanism for enabling or disabling code based on specific traits. There&rsquo;s more to it, with <em>conditional traits</em>, I invite you to read the <a href="https://github.com/swiftlang/swift-evolution/blob/main/proposals/0450-swiftpm-package-traits.md"  class="external-link" target="_blank" rel="noopener">original swift-evolution proposal</a> to understand the motivation for this new feature.</p>
+<p>&ndash;</p>
+<p>In this article, we&rsquo;ve explored three related novelties in Swift — Specialized Programming Interface (SPI), Access-Level Package, and Package Traits. While SPI itself isn’t new, each of these features offers a distinct way to manage visibility and structure dependencies within Swift packages. Together, they provide developers with more flexible tools for managing complex packages and workflows in modern Swift development.</p>
+
+      </div>
+
+
+      <footer>
+        
+
+
+        
+        
+        
+        
+        
+        
+        
+      </footer>
+    </article>
+
+    
+  </section>
+
+    </div>
+
+    <footer class="footer">
+  <section class="container">
+    ©
+    
+      2017 -
+    
+    2025
+     Quentin Fasquel 
+    ·
+    
+    Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/" target="_blank" rel="noopener">Coder</a>.
+    
+  </section>
+</footer>
+
+  </main>
+
+  
+
+  
+  
+  <script src="/js/coder.min.6ae284be93d2d19dad1f02b0039508d9aab3180a12a06dcc71b0b0ef7825a317.js" integrity="sha256-auKEvpPS0Z2tHwKwA5UI2aqzGAoSoG3McbCw73gloxc="></script>
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</body>
+</html>

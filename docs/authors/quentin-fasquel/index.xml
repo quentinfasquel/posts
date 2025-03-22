@@ -9,11 +9,144 @@
     <lastBuildDate>Mon, 10 Mar 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://blog.quentinfasquel.com/authors/quentin-fasquel/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Swift – From SPI to Package Traits</title>
-      <link>https://blog.quentinfasquel.com/posts/from-spi-to-package-traits/</link>
+      <title>From SPI to Package Traits</title>
+      <link>https://blog.quentinfasquel.com/posts/2025-03-from-spi-to-package-traits/</link>
       <pubDate>Mon, 10 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://blog.quentinfasquel.com/posts/from-spi-to-package-traits/</guid>
+      <guid>https://blog.quentinfasquel.com/posts/2025-03-from-spi-to-package-traits/</guid>
       <description>&lt;h1 id=&#34;swift--from-spi-to-package-traits&#34;&gt;&#xA;  Swift – From SPI to Package Traits&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#swift--from-spi-to-package-traits&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;h2 id=&#34;1-specialized-programing-interface-&#34;&gt;&#xA;  1. Specialized Programing Interface 🥷&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#1-specialized-programing-interface-&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Specialized Programming Interface (&lt;code&gt;@_spi&lt;/code&gt;) is a feature introduced in &lt;strong&gt;Swift 5.3&lt;/strong&gt; that allows you to restrict access to certain parts of your API. Unlike traditional access levels such as &lt;code&gt;public&lt;/code&gt; or &lt;code&gt;internal&lt;/code&gt;, &lt;strong&gt;&lt;code&gt;@_spi&lt;/code&gt;&lt;/strong&gt; enables you to make parts of your API accessible only to a specific group of users, such as specific internal modules or packages, by specifying the SPI name.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Recap of Apple’s in-person sessions: App Intents &amp; visionOS</title>
+      <link>https://blog.quentinfasquel.com/posts/2025-01-recap-of-apple-s-in-person-sessions-2025/</link>
+      <pubDate>Fri, 17 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://blog.quentinfasquel.com/posts/2025-01-recap-of-apple-s-in-person-sessions-2025/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://medium.com/@quentinfasquel/recap-of-apples-in-person-sessions-apple-intelligence-app-intents-and-visionos-2025-6297105a9d0e&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Written on Medium&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Observing Notifications</title>
+      <link>https://blog.quentinfasquel.com/posts/2025-01-observing-notifications/</link>
+      <pubDate>Tue, 07 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://blog.quentinfasquel.com/posts/2025-01-observing-notifications/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://medium.com/@quentinfasquel/ios-observing-notifications-1e89cadbc05f&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Written on Medium&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Custom FullScreenCover Transitions in SwiftUI</title>
+      <link>https://blog.quentinfasquel.com/posts/2024-09-custom-fullscreencover-transitions-in-swiftui/</link>
+      <pubDate>Fri, 06 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.quentinfasquel.com/posts/2024-09-custom-fullscreencover-transitions-in-swiftui/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://medium.com/@quentinfasquel/swiftui-custom-fullscreencover-transitions-a44beed4c163&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Written on Medium&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Interactive Transitions in SwiftUI (Part 1)</title>
+      <link>https://blog.quentinfasquel.com/posts/2024-04-interactive-transitions-in-swiftui-part1/</link>
+      <pubDate>Sat, 27 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.quentinfasquel.com/posts/2024-04-interactive-transitions-in-swiftui-part1/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://medium.com/@quentinfasquel/swiftui-interactive-transitions-part-1-f8ea10477802&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Written on Medium&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Interactive Transitions in SwiftUI (Part 2)</title>
+      <link>https://blog.quentinfasquel.com/posts/2024-04-interactive-transitions-in-swiftui-part2/</link>
+      <pubDate>Sat, 27 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.quentinfasquel.com/posts/2024-04-interactive-transitions-in-swiftui-part2/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://medium.com/@quentinfasquel/swiftui-interactive-transitions-part-2-57b74e0069ea&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Written on Medium&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Dismiss in cascade, multiple sheets/fullScreenCover in SwiftUI</title>
+      <link>https://blog.quentinfasquel.com/posts/2024-03-swiftui-dismiss-in-cascade/</link>
+      <pubDate>Sun, 31 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.quentinfasquel.com/posts/2024-03-swiftui-dismiss-in-cascade/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://medium.com/@quentinfasquel/swiftui-dismiss-in-cascade-working-with-multiple-sheet-fullscreencover-970cf6a67912&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Written on Medium&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Regular expressions in Swift Packages</title>
+      <link>https://blog.quentinfasquel.com/posts/2024-03-regular-expressions-in-swift-packages/</link>
+      <pubDate>Sat, 02 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.quentinfasquel.com/posts/2024-03-regular-expressions-in-swift-packages/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://medium.com/@quentinfasquel/regular-expressions-in-swift-packages-3a3baa5aef51&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Written on Medium&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Using the camera with SwiftUI</title>
+      <link>https://blog.quentinfasquel.com/posts/2024-01-using-the-camera-with-swiftui/</link>
+      <pubDate>Tue, 02 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.quentinfasquel.com/posts/2024-01-using-the-camera-with-swiftui/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://medium.com/@quentinfasquel/ios-using-the-camera-with-swiftui-004731ce78f0&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Written on Medium&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Passing a Binding from a UIHostingController to another</title>
+      <link>https://blog.quentinfasquel.com/posts/2023-05-passing-a-binding/</link>
+      <pubDate>Sat, 27 May 2023 00:00:00 +0000</pubDate>
+      <guid>https://blog.quentinfasquel.com/posts/2023-05-passing-a-binding/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://medium.com/@quentinfasquel/swiftui-passing-a-binding-from-a-uihostingcontroller-to-another-59a70664179f&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Written on Medium&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Live activities are about to be Live</title>
+      <link>https://blog.quentinfasquel.com/posts/2022-10-live-activities-are-about-to-be-live/</link>
+      <pubDate>Wed, 19 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>https://blog.quentinfasquel.com/posts/2022-10-live-activities-are-about-to-be-live/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://medium.com/@quentinfasquel/live-activities-are-about-to-be-live-5e73f6a2c8f6&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Written on Medium&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Carthage issues, Xcode 12, XCFrameworks, Apple Silicon, etc.</title>
+      <link>https://blog.quentinfasquel.com/posts/2020-09-carthage-issues-xcode12-xcframeworks-apple-silicon/</link>
+      <pubDate>Fri, 25 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>https://blog.quentinfasquel.com/posts/2020-09-carthage-issues-xcode12-xcframeworks-apple-silicon/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://medium.com/@quentinfasquel/carthage-issues-xcode-12-xcframeworks-apple-silicon-etc-1c60d8635dbc&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Written on Medium&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Eco-friendly programming or How to use SwiftUI, even for apps targeting iOS 12 and earlier</title>
+      <link>https://blog.quentinfasquel.com/posts/2020-09-eco-friendly-programming/</link>
+      <pubDate>Wed, 16 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>https://blog.quentinfasquel.com/posts/2020-09-eco-friendly-programming/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://medium.com/@quentinfasquel/eco-friendly-programming-or-how-to-use-swiftui-even-for-apps-targeting-ios-12-and-earlier-d487dd9fea64&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Written on Medium&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Transparent Video in SwiftUI</title>
+      <link>https://blog.quentinfasquel.com/posts/2020-03-transparent-video-with-swiftui/</link>
+      <pubDate>Sun, 29 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>https://blog.quentinfasquel.com/posts/2020-03-transparent-video-with-swiftui/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://medium.com/@quentinfasquel/ios-transparent-video-in-swiftui-92a9a1cce94e&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Written on Medium&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Transparent Video with CoreImage, part 2.</title>
+      <link>https://blog.quentinfasquel.com/posts/2020-03-transparent-video-with-coreimage-part2/</link>
+      <pubDate>Sat, 28 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>https://blog.quentinfasquel.com/posts/2020-03-transparent-video-with-coreimage-part2/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://medium.com/@quentinfasquel/ios-transparent-video-with-coreimage-part-2-a6dcc4e3ae8b&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Written on Medium&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Leaks caused by catching NSException in Swift</title>
+      <link>https://blog.quentinfasquel.com/posts/2019-03-leaks-nsexception-swift/</link>
+      <pubDate>Sun, 17 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>https://blog.quentinfasquel.com/posts/2019-03-leaks-nsexception-swift/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://medium.com/@quentinfasquel/leaks-caused-by-catching-nsexception-in-swift-1f6cbb95c02c&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Written on Medium&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Transparent Video in SpriteKit, then SceneKit</title>
+      <link>https://blog.quentinfasquel.com/posts/2018-05-transparent-video-with-spritekit-scenekit/</link>
+      <pubDate>Wed, 16 May 2018 00:00:00 +0000</pubDate>
+      <guid>https://blog.quentinfasquel.com/posts/2018-05-transparent-video-with-spritekit-scenekit/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://medium.com/@quentinfasquel/ios-transparent-video-in-spritekit-then-scenekit-2fc66b8706a6&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Written on Medium&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Debugging your layout using Associated Objects &amp; Swizzling</title>
+      <link>https://blog.quentinfasquel.com/posts/2018-01-debugging-your-ios-layout/</link>
+      <pubDate>Wed, 31 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://blog.quentinfasquel.com/posts/2018-01-debugging-your-ios-layout/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://medium.com/@quentinfasquel/debugging-your-ios-layout-on-the-fly-associated-objects-swizzling-d3a672facc33&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Written on Medium&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Transparent Video with CoreImage</title>
+      <link>https://blog.quentinfasquel.com/posts/2017-10-transparent-video-with-coreimage/</link>
+      <pubDate>Mon, 09 Oct 2017 00:00:00 +0000</pubDate>
+      <guid>https://blog.quentinfasquel.com/posts/2017-10-transparent-video-with-coreimage/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://medium.com/@quentinfasquel/ios-transparent-video-with-coreimage-52cfb2544d54&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Written on Medium&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Image Tracking with ARToolkit &amp; SceneKit</title>
+      <link>https://blog.quentinfasquel.com/posts/2017-09-image-tracking-with-artoolkit-scenekit/</link>
+      <pubDate>Fri, 29 Sep 2017 00:00:00 +0000</pubDate>
+      <guid>https://blog.quentinfasquel.com/posts/2017-09-image-tracking-with-artoolkit-scenekit/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://medium.com/ar-vr-journey/image-tracking-with-artoolkit-scenekit-2eb5e2e11dd3&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Written on Medium&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
