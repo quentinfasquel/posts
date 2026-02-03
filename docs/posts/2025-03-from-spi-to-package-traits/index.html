@@ -61,7 +61,7 @@ Specialized Programming Interface (@_spi) is a feature introduced in Swift 5.3 t
 
   
   
-  <link rel="stylesheet" href="/css/coder.min.7763f8bc6341ecf82378e867c285e1549abb063a899be313ccd25dbfcd24fa7d.css" integrity="sha256-d2P4vGNB7PgjeOhnwoXhVJq7BjqJm&#43;MTzNJdv80k&#43;n0=" crossorigin="anonymous" media="screen" />
+  <link rel="stylesheet" href="/css/coder.min.7ee04855f01a7f7a311ce189708f520a1a1d93c249cfed3b23e8c27666fc546e.css" integrity="sha256-fuBIVfAaf3oxHOGJcI9SChodk8JJz&#43;07I&#43;jCdmb8VG4=" crossorigin="anonymous" media="screen" />
 
 
 
@@ -133,6 +133,10 @@ Specialized Programming Interface (@_spi) is a feature introduced in Swift 5.3 t
           
             <li class="navigation-item">
               <a class="navigation-link " href="/posts/">Posts</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/private-apis/">Private APIs</a>
             </li>
           
         
@@ -274,7 +278,8 @@ public class CameraService {
 </h2>
 <p>An access-level keyword defines the visibility of your types and members (such as structs, classes, enums, properties, and functions). Prior to Swift 6.0, the most common access levels were <code>public</code>, <code>internal</code>, <code>fileprivate</code> and <code>private</code>, ordered from most to least visible.</p>
 <blockquote>
-<p>Let&rsquo;s keep the <code>open</code> keyword off topic. It is similar to <code>public</code> in visibility, but it has one key difference: it&rsquo;s reserved for classes and allows them to be subclassed or extended outside the module.</p></blockquote>
+<p>Let&rsquo;s keep the <code>open</code> keyword off topic. It is similar to <code>public</code> in visibility, but it has one key difference: it&rsquo;s reserved for classes and allows them to be subclassed or extended outside the module.</p>
+</blockquote>
 <p><strong>Swift 6.0</strong> introduced a <strong>new access-level <code>package</code></strong> that provides a more granular approach to controlling visibility within a package. The access-level <code>package</code> works between <code>public</code> and <code>internal</code> access, making it ideal for cases where you want to expose some functionality within the same package but restrict it from external users.</p>
 <h4 id="access-level-on-imports-package">
   Access-level on imports, <code>package</code>
@@ -285,7 +290,8 @@ public class CameraService {
 </h4>
 <p>Swift 6.0 also introduced <strong>access-level on imports</strong>. But there&rsquo;s  a notable distinction: the default access-level for imports is <code>public</code>, which is different from the usual default of internal for other members. This change was made to maintain compatibility with previous Swift versions, where the imports behavior was public by default.</p>
 <blockquote>
-<p>This behavior may change in the future, and it can already be adjusted if needed through the compiler directive <code>-enable-upcoming-feature</code> <code>InternalImportsByDefault</code> or in Xcode: <code>SWIFT_UPCOMING_FEATURE_INTERNAL_IMPORTS_BY_DEFAULTS=YES</code></p></blockquote>
+<p>This behavior may change in the future, and it can already be adjusted if needed through the compiler directive <code>-enable-upcoming-feature</code> <code>InternalImportsByDefault</code> or in Xcode: <code>SWIFT_UPCOMING_FEATURE_INTERNAL_IMPORTS_BY_DEFAULTS=YES</code></p>
+</blockquote>
 <p>With this change, when applying the new access-level <code>package</code> on imports, you can avoid the need for SPIs in certain cases. In the previous example, since the <code>CaptureUI</code> and <code>Capture</code> libraries belong to the same Swift package, they can take advantage of the <code>package</code> access-level and share functionality without needing SPI to control visibility.</p>
 <h4 id="-working-with-xcframework">
   ⚠️ Working with xcframework
@@ -306,7 +312,8 @@ public class CameraService {
 <p><strong>Swift 6.1</strong> introduced a new feature to SPM (<em>Swift Package Manager</em>) called <strong>Package Traits</strong>. I initially thought it would be a stable replacement for <code>@_spi</code> (which, as an underscore feature, is considered &ldquo;non-stable&rdquo;)&hellip; it&rsquo; not.</p>
 <p>While you could use <em>traits</em> to divide your package features and specify which subset of your team or collaborators can access them, they are not intended for controlling visibility. Instead, <strong>Package Traits</strong> enable conditional compilation, allowing specific code paths to be included or excluded based on the traits specified in the consuming package.</p>
 <blockquote>
-<p>Swift 6.1 is available with Xcode 16.3, but as of the first beta, there is currently no way to add a package product dependency with specific traits.</p></blockquote>
+<p>Swift 6.1 is available with Xcode 16.3, but as of the first beta, there is currently no way to add a package product dependency with specific traits.</p>
+</blockquote>
 <p>Let see an example of how it works, and how to describe <strong>Package Traits</strong>  in a <code>Package.swift</code>, check the following files:</p>
 <details>
   <summary>`CaptureSDK/Package.swift`</summary>
@@ -408,7 +415,7 @@ let package = Package(
     
       2017 -
     
-    2025
+    2026
      Quentin Fasquel 
     ·
     

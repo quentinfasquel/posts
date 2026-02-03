@@ -167,5 +167,7 @@
     <loc>https://blog.quentinfasquel.com/categories/</loc>
   </url><url>
     <loc>https://blog.quentinfasquel.com/series/</loc>
+  </url><url>
+    <loc>https://blog.quentinfasquel.com/private-apis/</loc>
   </url>
 </urlset>
