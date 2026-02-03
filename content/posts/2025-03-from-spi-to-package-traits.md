@@ -1,8 +1,8 @@
 +++
 authors = ["Quentin Fasquel"]
-title = "Swift – From SPI to Package Traits"
+title = "From SPI to Package Traits"
 date = "2025-03-10"
-tags = [ "swift evolution" ]
+tags = [ "Swift", "Swift Evolution" ]
 +++
 
 # Swift – From SPI to Package Traits
