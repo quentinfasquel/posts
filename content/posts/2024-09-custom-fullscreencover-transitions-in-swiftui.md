@@ -5,4 +5,4 @@ date = "2024-09-06"
 tags = [ "SwiftUI" ]
 +++
 
-[Written on Medium](https://medium.com/@quentinfasquel/swiftui-custom-fullscreencover-transitions-a44beed4c163)
+[Written on Medium](https://medium.com/@quentinfasquel/swiftui-custom-fullscreencover-transitions-a44beed4c163?sk=c78df70761ecc3055f2b009513dc2acf)
