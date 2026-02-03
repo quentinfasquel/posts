@@ -5,4 +5,4 @@ date = "2020-09-25"
 tags = [ "Xcode 12", "Carthage", "Apple Silicon", "Troubleshooting", "xcframework" ]
 +++
 
-[Written on Medium](https://medium.com/@quentinfasquel/carthage-issues-xcode-12-xcframeworks-apple-silicon-etc-1c60d8635dbc)
+[Written on Medium](https://medium.com/@quentinfasquel/carthage-issues-xcode-12-xcframeworks-apple-silicon-etc-1c60d8635dbc?sk=fa6c1be7ae8d9ea823e4d1475cc1588a)

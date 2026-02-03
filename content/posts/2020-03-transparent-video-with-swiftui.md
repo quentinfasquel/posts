@@ -5,6 +5,6 @@ date = "2020-03-29"
 tags = [ "iOS", "Video Processing", "CoreImage", "SwiftUI" ]
 +++
 
-[Written on Medium](https://medium.com/@quentinfasquel/ios-transparent-video-in-swiftui-92a9a1cce94e)
+[Written on Medium](https://medium.com/@quentinfasquel/ios-transparent-video-in-swiftui-92a9a1cce94e?sk=b0ef7e7ec24cca6757c5e1f4a11cd144)
 
 
